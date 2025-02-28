@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: #ddf8dd
+}
+
+.header {
+    background-color: #c1e5f6;
+    border-radius: 15px;
+    margin-left: 20px;
+    border-style: dashed;
+
+}
+.links {
+    background-color: #f8cbf0;
+    border-radius: 15px;
+    border-style: dashed;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.albums {
+    background-color: #dabbfb;
+    border-radius: 15px;
+    border-style: dashed;
+    margin-bottom: 20px;
+}
+.date {
+    background-color: #b7b4ff;
+    border-radius: 15px;
+    border-style: dashed;
+}
+.message {
+    background-color: #FFCEBEFC;
+    border-radius: 15px;
+    border-style: dashed;
+    margin-top: 20px;
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+    padding: 20px;
+    box-sizing: border-box;
+    @media (max-width: 650px) {
+        .info {
+            display: block;
+            text-align: center;
+        }
+    }
+
+}
+.photo {
+    max-width: 300px;
+    margin: auto;
+}
+
+a {
+    color: #1d5859;
+}
+a:active {
+    color: #52932c;
+}
+a:hover {
+    color: #934c4d;
+}
+
+.btn {
+    background-color: #000000;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-family: inherit;
+}
+.btn:hover {
+    opacity: 0.8;
+    color: #ff00cf;
+}
+
+.date {
+    width: 100%;
+}
+
+.date td {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.date td:hover {
+    background-color: #b7b4ff;
+}
+
+.date td:nth-child(1) {
+    background-color: #b7b4ff;
+}
+
+.name {
+    background-color: #e3d0f1;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.email {
+    background-color: #e3d0f1;
+    border-radius: 5px;
+    font-family: inherit;
+}
+.mes {
+    background-color: #e3d0f1;
+    font-family: inherit;
+    border-radius: 5px;
+}
+
+.info {
+    display: flex;
+}
+
+.info-text {
+    margin-left: 10px;
+}
