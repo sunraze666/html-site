@@ -49,6 +49,9 @@ body {
             display: block;
             text-align: center;
         }
+        .mes {
+            max-width:  200px;
+        }
     }
 
 }
